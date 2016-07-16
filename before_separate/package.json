@@ -1,0 +1,33 @@
+{
+  "name": "hookclaw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin\\www.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "argv": "0.0.2",
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "ect": "^0.5.9",
+    "express": "^4.13.4",
+    "express-domain-middleware": "^0.1.0",
+    "istanbul-middleware": "^0.2.2",
+    "jsonnet": "^0.5.0-beta",
+    "locutus": "^2.0.2",
+    "morgan": "^1.7.0",
+    "typescript": "^1.8.10"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-minify": "0.0.11",
+    "gulp-sourcemaps": "^2.0.0-alpha",
+    "require-dir": "^0.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

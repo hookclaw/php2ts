@@ -1,0 +1,8 @@
+{
+  "ambientDependencies": {
+    "argv": "registry:dt/argv#0.0.0+20160523040018",
+    "async": "registry:dt/async#1.4.2+20160501155344",
+    "jsonnet": "registry:dt/jsonnet#0.0.0+20160526142213",
+    "node": "registry:dt/node#6.0.0+20160524002506"
+  }
+}

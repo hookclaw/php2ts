@@ -1,0 +1,26 @@
+/* bootstrap
+*/
+.navbar {
+	background-color: #5070A0
+}
+.navbar-default .navbar-nav>li>a {
+	color: #e0e0e0
+}
+/* original
+*/
+.PaddingSection {
+	padding-top:51px;
+}
+.ArrangeTheCode {
+	vertical-align: top;
+}
+.ArrangeTheCode td {
+	min-width: 200px;
+	max-width: 610px;
+}
+.ErrorLine {
+	background: #FFC0C0;
+}
+.ErrorToolTip {
+	background: #FFE0C0;
+}

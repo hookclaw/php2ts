@@ -1,0 +1,15 @@
+PHP Module
+	http://windows.php.net/download#php-7.0
+	http://windows.php.net/downloads/pecl/snaps/ast/
+
+PHP_sockets.dll
+	http://php.net/manual/ja/book.sockets.php
+
+PHP-ast
+	https://github.com/nikic/php-ast
+	http://lxr.php.net/xref/PHP_TRUNK/Zend/zend_language_parser.y
+
+PHP HTTP Server
+	https://github.com/youngj/httpserver
+	https://github.com/busbyjon/php-web-server
+

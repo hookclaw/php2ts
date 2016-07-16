@@ -1,0 +1,65 @@
+<% extend 'php2ts/_bootstrap.ect' %>
+<% block 'scripts' : %>
+    <link rel="stylesheet" href="/lib/google-code-prettify/prettify.css">
+    <link rel="stylesheet" href="/php2ts/php2ts.css">
+
+    <script src="/lib/google-code-prettify/prettify.js"></script>
+    <script src="/lib/typescript.1.8.10/typescriptServices.js"></script>
+    <script src="/php2ts/php2ts_web.js"></script>
+    <script src="/php2ts/TypeScriptFormat.js"></script>
+<% end %>
+<section>
+    <div class="wrapper">
+        <section>
+            <h3>PHP to TypeScript</h3>
+            
+            <h3>PHP Code</h3>
+            <select id="examples">
+                <option value="">Select...</option>
+            </select>
+            <textarea id="code" style="width:100%;height:200px;">&lt;?php
+echo "Hello world";
+</textarea>
+            <button id="run" style="width:100%">Translate</button>
+
+            <table class="ResultGroup">
+                <tr>
+                    <th colspan="2">Parse result</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <pre><code id="result"></code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">TypeScript transpile result</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <pre><code id="transpile_result"></code></pre>
+                    </td>
+                </tr>
+                <tr>
+                    <th>PHP Code</th>
+                    <th>TypeScript Code</th>
+                </tr>
+                <tr class="ArrangeTheCode">
+                    <td>
+                        <pre id="php_code" class="prettyprint linenums lang-php"></pre>
+                    </td>
+                    <td>
+                        <pre id="ts_code" class="prettyprint linenums lang-ts"></pre>
+                    </td>
+                </tr>
+            </table>
+
+
+        </section>
+    </div>
+    <script>
+
+        setup_translate();
+        setup_select();
+
+    </script>
+</section>

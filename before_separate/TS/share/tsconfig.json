@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es3",
+        "noImplicitAny": false,
+        "rootDir": "./client",
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "outDir": "../../public"
+    },
+    "files": ["client/php2ts/php2ts_web.ts","client/php2ts/TypeScriptFormat.ts"]
+    //"files": ["c.ts", "../php2ts-compiler.ts", "../s1.ts", "../s2.ts"]
+}

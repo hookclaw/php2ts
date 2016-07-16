@@ -1,0 +1,21 @@
+{
+  "name": "php2ts",
+  "version": "0.1.0",
+  "description": "PHP to TypeScript",
+  "bin": "bin/p2t.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "PHP",
+    "TypeScript"
+  ],
+  "author": "Hookclaw",
+  "license": "MIT",
+  "dependencies": {
+    "argv": "0.0.2",
+    "async": "^2.0.0-rc.5",
+    "jsonnet": "^0.5.0-beta",
+    "typescript": "^1.8.10"
+  }
+}

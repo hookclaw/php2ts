@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "es5",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "rootDir": ".",
+        "sourceMap": true,
+        "inlineSourceMap": false,
+        "outDir": "/WS1/hookclaw"
+    },
+    "exclude": [
+        "gulp",
+        "work",
+        "share/client",
+        "typings"
+    ]
+}
